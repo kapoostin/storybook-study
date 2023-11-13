@@ -29,7 +29,7 @@ export const Archived = {
   args: {
     task: {
       ...Default.args.task,
-      state: 'TASK_PINNED',
+      state: 'TASK_ARCHIVED',
     }
   }
 }
